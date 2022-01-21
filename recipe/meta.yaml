@@ -1,5 +1,5 @@
 {% set name = "azure-mgmt-subscription" %}
-{% set version = "0.7.0" %}
+{% set version = "3.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip
-  sha256: 37f570b8872ae65dce312da116588ab8407a5c8a10d959597e61d19b21799f77
+  sha256: 157bd9123a5814473a9cd131832ea614c478548722ec01f47b35d778dc307d55
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
