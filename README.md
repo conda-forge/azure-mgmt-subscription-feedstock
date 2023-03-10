@@ -1,11 +1,11 @@
-About azure-mgmt-subscription
-=============================
-
-Home: https://github.com/Azure/azure-sdk-for-python
-
-Package license: MIT
+About azure-mgmt-subscription-feedstock
+=======================================
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/azure-mgmt-subscription-feedstock/blob/main/LICENSE.txt)
+
+Home: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/subscription/azure-mgmt-subscription
+
+Package license: MIT
 
 Summary: Microsoft Azure Subscription Management Client Library for Python
 
@@ -143,5 +143,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@dhirschfeld](https://github.com/dhirschfeld/)
 * [@tim-werner](https://github.com/tim-werner/)
 
